@@ -39,7 +39,7 @@ chain = prompt.partial(format_instruction=parser.get_format_instructions) | llm 
 
 @app.get("/")
 def home():
-    return "Welcome to QA generator, upload a document to the /qa endpoint to generate questions from them"
+    return "Welcome to QA generator, upload a document to /generate_questions/ endpoint to generate questions from it"
 
 
 @app.post("/generate_questions/")
