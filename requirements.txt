@@ -1,4 +1,4 @@
-fastapi==0.115.5
+fastapi[all]==0.115.5
 langchain==0.3.8
 langchain_community==0.3.8
 langchain_core==0.3.21
@@ -7,3 +7,4 @@ pydantic==2.10.1
 python-dotenv==1.0.1
 docx2txt
 PyPDF2
+python-multipart
